@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>aprender ingles</title>
+</head>
+function MyButton() {
+  return (
+    <button>
+      Investigar y organizar contenido sobre tiempos verbales. 
+      Desarrollar y revisar ejercicios interactivos para practicar tiempos verbales.
+Implementar el componente de gramática básica.
+Realizar pruebas de funcionalidad en los ejercicios interactivos. 2 dias 
+    
+
+      
+    </button>
+
+  );
+}
+
+export default function MyApp() {
+  return (
+    <div>
+      <h1>Aprendiendo ingles</h1>
+      <h2>Practica diaria:15 min</h2>
+      <h3>Qué hice ayer?
+¿Qué haré hoy?
+¿Hay algún obstáculo que impida mi progreso?</h3>
+      <MyButton />
+    </div>
+  );
+}
+
